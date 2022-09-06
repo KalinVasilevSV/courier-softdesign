@@ -1,4 +1,5 @@
 # courier-softdesign
 
-This is the task for Software Design exam. 
+This is the task for Software Design exam.  
+Run with `./gradlew :run`  
 Task link in Classroom: https://classroom.google.com/u/0/c/NDc2OTQyNjMzMTQ2/a/NTQ1NTYwMTUwMDM1/details?pli=1
