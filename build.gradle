@@ -1,0 +1,27 @@
+plugins {
+    id 'application'
+}
+
+group 'org.example'
+version 'DEV-SNAPSHOT'
+setMainClassName 'org.example.courier.CourierApp'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'javax.validation:validation-api:2.0.1.Final'
+    implementation 'org.hibernate.validator:hibernate-validator:6.0.13.Final'
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+run {
+    standardInput = System.in
+}
